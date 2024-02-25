@@ -8,7 +8,7 @@
     "sockets",
     "socket.io"
   ],
-  "author": "Sergey Khursevich <sergey.khursevich@sast-mfa.com>",
+  "author": "Sergey Khursevich",
   "homepage": "",
   "license": "ISC",
   "main": "lib/server.js",
