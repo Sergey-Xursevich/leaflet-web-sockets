@@ -13,8 +13,7 @@
   "license": "ISC",
   "main": "lib/server.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
@@ -27,6 +26,13 @@
     "url": "ssh://git@ssh.github.com:443/Sergey-Xursevich/leaflet-web-sockets.git"
   },
   "scripts": {
-    "test": "node ./__tests__/server.test.js"
+    "start": "nodemon lib/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
